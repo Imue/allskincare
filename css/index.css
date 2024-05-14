@@ -1,0 +1,281 @@
+      body {
+          background-color: pink;
+      }
+      
+      nav {
+          background-color: rgb(252, 162, 177);
+          max-width: 100%;
+      }
+      
+      .container-fluid a {
+          text-decoration: none;
+          color: rgb(94, 57, 69);
+          background-color: rgb(252, 162, 177);
+      }
+      
+      .container-fluid {
+          background-color: rgb(252, 162, 177);
+      }
+      
+      .logo {
+          width: 50px;
+          height: 50px;
+          background-color: rgb(252, 162, 177);
+      }
+      
+      .navbar-brand {
+          color: rgb(94, 57, 69);
+      }
+      
+      .container {
+          height: 20px;
+          background-color: plum;
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          border-radius: 30px;
+          box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+          width: 100%;
+          margin-top: 20px;
+      }
+      
+      .search-input input {
+          width: 0;
+          font-weight: 500;
+          font-size: 16px;
+          background-color: pink;
+          transition: 500ms;
+          border: none;
+          color: rgb(94, 2, 17);
+          font-weight: lighter;
+      }
+      
+      .search {
+          border: none;
+      }
+      
+      .search-input:hover input {
+          width: 200px;
+          transition: 500ms;
+      }
+      
+      .search-input.button {
+          width: 40px;
+          height: 40px;
+          background-color: gold;
+          border-radius: 30px;
+      }
+      
+      #myVideo {
+          /* position: ; */
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background-repeat: repeat;
+      }
+      
+      .content {
+          position: absolute;
+          top: 0;
+          color: rgb(94, 57, 69);
+          width: 100%;
+          padding: 20px;
+          height: 700px;
+          text-align: center;
+          margin-top: 160px;
+          background-color: none;
+      }
+      
+      .content h1 {
+          color: rgb(94, 57, 69);
+          text-align: center;
+          font-weight: bolder;
+          font-size: xx-large;
+      }
+      
+      .content button {
+          width: 200px;
+          height: 50px;
+          background-color: rgb(94, 57, 69);
+          color: pink;
+          border: none;
+          transition: width, 1s;
+          transition-timing-function: ease-in-out;
+      }
+      
+      .content button:hover {
+          background-color: pink;
+          color: rgb(94, 57, 69);
+          width: 250px;
+      }
+      
+      #news {
+          color: rgb(94, 57, 69);
+      }
+      
+      #news button {
+          background-color: rgb(94, 57, 69);
+          color: pink;
+          border: none;
+      }
+      
+      #socials {
+          display: inline-flex;
+          margin-right: 300px;
+          margin-top: 20px;
+      }
+      
+      #bodywash {
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background-repeat: repeat;
+      }
+      
+      .sented {
+          width: 100%;
+          height: 720px;
+          position: relative;
+          margin-top: -720px;
+      }
+      
+      .sented button {
+          margin-top: 400px;
+          width: 200px;
+          height: 50px;
+          background-color: rgb(94, 57, 69);
+          color: pink;
+          border: none;
+          transition: width, 1s;
+          transition-timing-function: ease-in-out;
+      }
+      
+      .sented button:hover {
+          background-color: pink;
+          color: rgb(94, 57, 69);
+          width: 250px;
+      }
+      
+      .bodywash {
+          width: 100%;
+          height: 720px;
+          top: 0;
+          margin-top: -720px;
+          position: relative;
+      }
+      
+      .bodywash button {
+          margin-top: 400px;
+          width: 200px;
+          height: 50px;
+          background-color: rgb(94, 57, 69);
+          color: pink;
+          border: none;
+          transition: width, 1s;
+          transition-timing-function: ease-in-out;
+      }
+      
+      .bodywash button:hover {
+          background-color: pink;
+          color: rgb(94, 57, 69);
+          width: 250px;
+      }
+      
+      .perfume {
+          width: 100%;
+          height: 840px;
+          top: 0;
+          margin-top: -847px;
+          position: relative;
+      }
+      
+      .perfume button {
+          margin-top: 400px;
+          width: 200px;
+          height: 50px;
+          background-color: rgb(94, 57, 69);
+          color: pink;
+          border: none;
+          transition: width, 1s;
+          transition-timing-function: ease-in-out;
+      }
+      
+      .perfume button:hover {
+          background-color: pink;
+          color: rgb(94, 57, 69);
+          width: 250px;
+      }
+      
+      #mheader {
+          display: none;
+      }
+      
+      #fistvideo {
+          display: none;
+      }
+      
+      .whaatpp {
+          display: none;
+      }
+      
+      @media screen and (max-width:600px) {
+          #hheader {
+              background-color: red;
+              display: none;
+          }
+          #mheader {
+              display: block;
+          }
+          .content {
+              display: none;
+          }
+          #fistvideo {
+              display: block;
+          }
+          .f1stvideo video {
+              margin-top: 30px;
+              max-width: 100%!important;
+          }
+          .f1stvideo div {
+              margin-top: -10px;
+              font-size: smaller;
+          }
+          .f1stvideo button {
+              font-size: small;
+              width: 100px;
+          }
+          .bodywash button {
+              margin-top: 1 0px;
+          }
+          .sented button {
+              margin-top: 630px;
+              position: relative;
+          }
+          .bodywash button {
+              margin-top: 630px;
+          }
+          .perfume button {
+              margin-top: 750px;
+          }
+          #news {
+              text-wrap: nowrap;
+          }
+          #news input {
+              width: 200px;
+          }
+          #news button {
+              width: 90px;
+          }
+          #socials {
+              display: none;
+          }
+          #social {
+              display: inline-flex;
+              align-content: center;
+              align-items: center;
+              justify-content: center;
+          }
+      }
